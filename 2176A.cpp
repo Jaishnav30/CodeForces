@@ -4,7 +4,7 @@
 using namespace std;
 
 int non_negative(int a, int b){
-    if(a>0 && b>0) return 1;
+    if(a>=0 && b>=0) return 1;
     return 0;
 }
 
